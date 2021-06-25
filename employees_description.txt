@@ -1,0 +1,93 @@
+Index Key:
+    ID: 0
+    First Name: 1
+    Last Name: 2
+    Address: 3
+    City: 4
+    State: 5
+    Zip: 6
+    Classification: 7
+    PayMethod: 8
+    Salary: 9
+    Hourly: 10
+    Commission: 11
+    Routing: 12
+    Account: 13
+    Phone: 14
+    DOB: 15
+    SSN: 16
+    Start Date: 17
+    Permission Level: 18
+    Job Title: 19
+    Department: 20
+    Email: 21
+    EarningToDate: 22
+    Archived: 23
+    AboutMe: 24
+
+
+
+
+EmployeeID:
+    6 Digit number
+First Name:
+    Either:
+        1 Word
+        1 Word, a space, and a middle initial ending with a period
+Last Name:
+    1 word
+Address:
+    Multiple Words
+City:
+    Multiple Words
+State:
+    2 Character Code
+Zip:
+    5 Digit number
+Classification:
+    1: Hourly
+    2: Salaried
+    3: Commissioned
+PayMethod:
+    1: Mailed
+    2: ACH
+Salary:
+    Float, Yearly Salary Value
+Hourly:
+    Float, Hourly Rate
+Commission:
+    Int, Commission Rate
+        Ex: 25 = 25% of Receipt amount goes in addition to their Salary
+Route:
+    Routing Number, 8 Digit Number Hyphen 1 Char or Digit
+    ########-X
+        Ex: 30417353-K
+Account:
+    Bank Account Number, 6 Digit Number Hyphen 4 Digit Number
+    ######-####
+        Ex: 465794-3611
+OfficePhone:
+    10 Digit Number
+DOB:
+    Date of Birth
+    MM-DD-YYYY
+    Ex: 01-01-1996
+SSN:
+    ###-##-####
+Start Date:
+    MM-DD-YYYY
+PermissionLevel:
+    1: Admin
+    2: Base
+JobTitle:
+    Job Title String
+Dpt:
+    Department String
+Email:
+    Email string, must include an "@" Character
+EarningToDate:
+    Float, Total Amount Earned to Date
+Archived:
+    True: Means they are Archived
+    False: Means they are not Archived
+
